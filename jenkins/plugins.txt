@@ -1,0 +1,11 @@
+git-client:latest
+git:latest
+ssh-credentials:1.11
+credentials 1.22
+metrics 3.1.2.6
+github:latest
+clover:latest
+checkstyle:latest
+tap:latest
+embeddable-build-status:latest
+nodejs:latest
