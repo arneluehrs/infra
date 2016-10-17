@@ -2,6 +2,8 @@ import jenkins.model.*
 import org.jenkinsci.plugins.GithubAuthorizationStrategy
 import hudson.security.AuthorizationStrategy
 
+def env = System.getenv()
+
 //permissions are ordered similar to web UI
 //Admin User Names
 String adminUserNames = env['GITHUB_ADMIN_USER_NAMES']
